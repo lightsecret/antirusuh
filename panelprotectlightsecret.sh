@@ -38,7 +38,7 @@ if [ "$OPSI" = "1" ]; then
     in_func == 1 && /^\s*{/ {
         print;
         print "        if ($request->user()->id !== " admin_id ") {";
-        print "            throw new DisplayException(\"Lu Siapa Mau Delet User Lain Tolol?Izin Dulu Sama Id 1 Kalo Mau Delet©Protect By Syah V'"$VERSION"')\");";
+        print "            throw new DisplayException(\"Lu Siapa Mau Delet User Lain Tolol?Izin Dulu Sama Id 1 Kalo Mau Delet©Protect By LightSecret V'"$VERSION"')\");";
         print "        }";
         in_func = 0; next;
     }
