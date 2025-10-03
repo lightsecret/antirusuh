@@ -74,7 +74,7 @@ if [[ "$MODE" == "1" ]]; then
             print;
             print "        $user = Auth::user();";
             print "        if (!$user || $user->id !== " admin_id ") {";
-            print "            abort(403, \"Pablo×Kurozi Protect - Akses ditolak\");";
+            print "            abort(403, \"LightSecret Protect - Akses ditolak\");";
             print "        }";
             in_func = 0; next;
         }
